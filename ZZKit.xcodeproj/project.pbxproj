@@ -13,6 +13,8 @@
 		859E3E1F20275B65005D5ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E3E1E20275B65005D5ACD /* Assets.xcassets */; };
 		859E3E2220275B65005D5ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E3E2020275B65005D5ACD /* LaunchScreen.storyboard */; };
 		859E3E2520275B65005D5ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E2420275B65005D5ACD /* main.m */; };
+		859E3E2E20275C27005D5ACD /* ZZControllerReplacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E2D20275C27005D5ACD /* ZZControllerReplacer.m */; };
+		859E3E3120275DCF005D5ACD /* ZZTraceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E3020275DCF005D5ACD /* ZZTraceItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		859E3E2120275B65005D5ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859E3E2320275B65005D5ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		859E3E2420275B65005D5ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		859E3E2C20275C27005D5ACD /* ZZControllerReplacer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZControllerReplacer.h; sourceTree = "<group>"; };
+		859E3E2D20275C27005D5ACD /* ZZControllerReplacer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZControllerReplacer.m; sourceTree = "<group>"; };
+		859E3E2F20275DCF005D5ACD /* ZZTraceItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTraceItem.h; sourceTree = "<group>"; };
+		859E3E3020275DCF005D5ACD /* ZZTraceItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTraceItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		859E3E1420275B65005D5ACD /* ZZKit */ = {
 			isa = PBXGroup;
 			children = (
+				859E3E2B20275B82005D5ACD /* Classes */,
 				859E3E1520275B65005D5ACD /* AppDelegate.h */,
 				859E3E1620275B65005D5ACD /* AppDelegate.m */,
 				859E3E1820275B65005D5ACD /* ViewController.h */,
@@ -69,6 +76,17 @@
 				859E3E2420275B65005D5ACD /* main.m */,
 			);
 			path = ZZKit;
+			sourceTree = "<group>";
+		};
+		859E3E2B20275B82005D5ACD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				859E3E2C20275C27005D5ACD /* ZZControllerReplacer.h */,
+				859E3E2D20275C27005D5ACD /* ZZControllerReplacer.m */,
+				859E3E2F20275DCF005D5ACD /* ZZTraceItem.h */,
+				859E3E3020275DCF005D5ACD /* ZZTraceItem.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				859E3E1A20275B65005D5ACD /* ViewController.m in Sources */,
+				859E3E3120275DCF005D5ACD /* ZZTraceItem.m in Sources */,
 				859E3E2520275B65005D5ACD /* main.m in Sources */,
 				859E3E1720275B65005D5ACD /* AppDelegate.m in Sources */,
+				859E3E2E20275C27005D5ACD /* ZZControllerReplacer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
