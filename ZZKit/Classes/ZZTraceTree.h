@@ -24,8 +24,8 @@
 - (void)mergeOtherTree:(ZZTraceTree *)tree;
 - (int64_t)finishTime;
 - (int64_t)startTime;
-- (id)renderWithStartTime:(int64_t)arg1;
-- (id)peer;
-- (id)pop;
-- (void)push:(id)arg1;
+- (NSArray *)renderWithStartTime:(int64_t)time;
+- (ZZTraceItem *)peer;
+- (ZZTraceItem *)pop;
+- (void)push:(ZZTraceItem *)item;
 @end
