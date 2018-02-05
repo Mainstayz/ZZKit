@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A2BE9E20284033001F7DF8 /* ZZStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2BE9D20284033001F7DF8 /* ZZStack.m */; };
+		04A2BEA120285053001F7DF8 /* ZZTraceTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2BEA020285053001F7DF8 /* ZZTraceTree.m */; };
 		859E3E1720275B65005D5ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E1620275B65005D5ACD /* AppDelegate.m */; };
 		859E3E1A20275B65005D5ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E1920275B65005D5ACD /* ViewController.m */; };
 		859E3E1D20275B65005D5ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E3E1B20275B65005D5ACD /* Main.storyboard */; };
@@ -18,6 +20,128 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A2BE26202833AD001F7DF8 /* _priv_NBSLENSGestureTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLENSGestureTracker.h; sourceTree = "<group>"; };
+		04A2BE27202833AD001F7DF8 /* _priv_NBSLENS_VCSBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLENS_VCSBuffer.h; sourceTree = "<group>"; };
+		04A2BE28202833AD001F7DF8 /* _priv_NBSLensUITrackerInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensUITrackerInstaller.h; sourceTree = "<group>"; };
+		04A2BE29202833AD001F7DF8 /* _priv_NBSHTTPTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSHTTPTransaction.h; sourceTree = "<group>"; };
+		04A2BE2A202833AD001F7DF8 /* NBSAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSAppAgent.h; sourceTree = "<group>"; };
+		04A2BE2B202833AD001F7DF8 /* _priv_NBSLensDelegateUITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensDelegateUITracker.h; sourceTree = "<group>"; };
+		04A2BE2C202833AD001F7DF8 /* _priv_NBSErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSErrorManager.h; sourceTree = "<group>"; };
+		04A2BE2D202833AD001F7DF8 /* _priv_NBSUIDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSUIDataItem.h; sourceTree = "<group>"; };
+		04A2BE2E202833AD001F7DF8 /* _priv_NBSURLProtocolConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSURLProtocolConnection.h; sourceTree = "<group>"; };
+		04A2BE2F202833AD001F7DF8 /* _priv_NBSLens_iOSANREntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_iOSANREntity.h; sourceTree = "<group>"; };
+		04A2BE30202833AD001F7DF8 /* _priv_NBSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSReachability.h; sourceTree = "<group>"; };
+		04A2BE31202833AD001F7DF8 /* NBS_PBS_GCDAsyncWritePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBS_PBS_GCDAsyncWritePacket.h; sourceTree = "<group>"; };
+		04A2BE32202833AD001F7DF8 /* _priv_NBSErrorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSErrorItem.h; sourceTree = "<group>"; };
+		04A2BE33202833AD001F7DF8 /* NSURLConnectionDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnectionDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE34202833AD001F7DF8 /* _priv_NBSFinishArgumentsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSFinishArgumentsHelper.h; sourceTree = "<group>"; };
+		04A2BE35202833AD001F7DF8 /* _priv_NBSUILogCenter_assistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSUILogCenter_assistant.h; sourceTree = "<group>"; };
+		04A2BE36202833AD001F7DF8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A2BE37202833AD001F7DF8 /* _priv_NBSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSDevice.h; sourceTree = "<group>"; };
+		04A2BE38202833AD001F7DF8 /* _priv_NBSLensCustomerAPIBusyItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCustomerAPIBusyItems.h; sourceTree = "<group>"; };
+		04A2BE39202833AD001F7DF8 /* NBSEventTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSEventTreeNode.h; sourceTree = "<group>"; };
+		04A2BE3A202833AD001F7DF8 /* NBSLensAppStartsDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensAppStartsDataManager.h; sourceTree = "<group>"; };
+		04A2BE3B202833AD001F7DF8 /* _priv_NBSLENS_URLParamsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLENS_URLParamsFilter.h; sourceTree = "<group>"; };
+		04A2BE3C202833AD001F7DF8 /* _priv_NBSLensPageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensPageInfo.h; sourceTree = "<group>"; };
+		04A2BE3D202833AD001F7DF8 /* _priv_NBSHookNSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSHookNSData.h; sourceTree = "<group>"; };
+		04A2BE3E202833AD001F7DF8 /* NBSAESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSAESEncrypt.h; sourceTree = "<group>"; };
+		04A2BE3F202833AD001F7DF8 /* _priv_NBSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSConfig.h; sourceTree = "<group>"; };
+		04A2BE40202833AD001F7DF8 /* NBSLENS_hookNSURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLENS_hookNSURL.h; sourceTree = "<group>"; };
+		04A2BE41202833AD001F7DF8 /* _priv_NBSSafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSSafeMutableArray.h; sourceTree = "<group>"; };
+		04A2BE42202833AD001F7DF8 /* _priv_NBSLensUITraceSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensUITraceSegment.h; sourceTree = "<group>"; };
+		04A2BE43202833AD001F7DF8 /* NBSEventForest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSEventForest.h; sourceTree = "<group>"; };
+		04A2BE44202833AD001F7DF8 /* _priv_NBSLensURLSessionDemux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensURLSessionDemux.h; sourceTree = "<group>"; };
+		04A2BE45202833AD001F7DF8 /* _priv_NBSLensURLSessionDemuxTaskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensURLSessionDemuxTaskInfo.h; sourceTree = "<group>"; };
+		04A2BE46202833AD001F7DF8 /* NBSURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSURLConnectionDelegate.h; sourceTree = "<group>"; };
+		04A2BE47202833AD001F7DF8 /* NSURLSessionStreamDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionStreamDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE48202833AD001F7DF8 /* _priv_NBSLensInterfaceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensInterfaceEvent.h; sourceTree = "<group>"; };
+		04A2BE49202833AD001F7DF8 /* NSObject-BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-BlocksKit.h"; sourceTree = "<group>"; };
+		04A2BE4A202833AD001F7DF8 /* NBSHookASI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSHookASI.h; sourceTree = "<group>"; };
+		04A2BE4B202833AD001F7DF8 /* NBSLensAppStartsInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensAppStartsInstaller.h; sourceTree = "<group>"; };
+		04A2BE4C202833AD001F7DF8 /* NBSLensUIEventStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensUIEventStack.h; sourceTree = "<group>"; };
+		04A2BE4D202833AD001F7DF8 /* NBSThreadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSThreadHandler.h; sourceTree = "<group>"; };
+		04A2BE4E202833AD001F7DF8 /* _priv_NBSLens_iOSANRMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_iOSANRMonitor.h; sourceTree = "<group>"; };
+		04A2BE4F202833AD001F7DF8 /* _priv_NBSForwardMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSForwardMessage.h; sourceTree = "<group>"; };
+		04A2BE50202833AD001F7DF8 /* NBSURLSessionDelegateBefore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSURLSessionDelegateBefore.h; sourceTree = "<group>"; };
+		04A2BE51202833AD001F7DF8 /* _priv_NBSLensCustomerAPIBusyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCustomerAPIBusyItem.h; sourceTree = "<group>"; };
+		04A2BE52202833AD001F7DF8 /* NBSEventTreeMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSEventTreeMetric.h; sourceTree = "<group>"; };
+		04A2BE53202833AE001F7DF8 /* _priv_NBSGZData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSGZData.h; sourceTree = "<group>"; };
+		04A2BE54202833AE001F7DF8 /* _priv_NBS_DictAndArrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBS_DictAndArrary.h; sourceTree = "<group>"; };
+		04A2BE55202833AE001F7DF8 /* NSNumber-address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber-address.h"; sourceTree = "<group>"; };
+		04A2BE56202833AE001F7DF8 /* _priv_NBSLensControllerReplacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensControllerReplacer.h; sourceTree = "<group>"; };
+		04A2BE57202833AE001F7DF8 /* _priv_NBSUIDataListOfScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSUIDataListOfScope.h; sourceTree = "<group>"; };
+		04A2BE58202833AE001F7DF8 /* _priv_NBSProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSProbe.h; sourceTree = "<group>"; };
+		04A2BE59202833AE001F7DF8 /* NBSLens_Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLens_Wrapper.h; sourceTree = "<group>"; };
+		04A2BE5A202833AE001F7DF8 /* _priv_NBSURLParamItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSURLParamItem.h; sourceTree = "<group>"; };
+		04A2BE5B202833AE001F7DF8 /* NSURLSessionDownloadDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDownloadDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE5C202833AE001F7DF8 /* _priv_NBSLensUITrackerTouchAndTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensUITrackerTouchAndTap.h; sourceTree = "<group>"; };
+		04A2BE5D202833AE001F7DF8 /* NBSLensAppStartsReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensAppStartsReporter.h; sourceTree = "<group>"; };
+		04A2BE5E202833AE001F7DF8 /* NBS_PBS_GCDAsyncSpecialPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBS_PBS_GCDAsyncSpecialPacket.h; sourceTree = "<group>"; };
+		04A2BE5F202833AE001F7DF8 /* _priv_NBSLens_hookWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_hookWebview.h; sourceTree = "<group>"; };
+		04A2BE60202833AE001F7DF8 /* _priv_NBSLensPageInfoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensPageInfoRecord.h; sourceTree = "<group>"; };
+		04A2BE61202833AE001F7DF8 /* NBS_PBS_GCDAsyncSocketDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBS_PBS_GCDAsyncSocketDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE62202833AE001F7DF8 /* _priv_NBS_Lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBS_Lock.h; sourceTree = "<group>"; };
+		04A2BE63202833AE001F7DF8 /* _priv_NBSFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSFilterItem.h; sourceTree = "<group>"; };
+		04A2BE64202833AE001F7DF8 /* _priv_NBSLens_iOSANRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_iOSANRManager.h; sourceTree = "<group>"; };
+		04A2BE65202833AE001F7DF8 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		04A2BE66202833AE001F7DF8 /* _priv_NBSLensCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCrashHandler.h; sourceTree = "<group>"; };
+		04A2BE67202833AE001F7DF8 /* NBSLensCrashHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensCrashHelper.h; sourceTree = "<group>"; };
+		04A2BE68202833AE001F7DF8 /* _priv_NBSUIHookMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSUIHookMatrix.h; sourceTree = "<group>"; };
+		04A2BE69202833AE001F7DF8 /* _priv_NBSLensInterfaceEventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensInterfaceEventLogger.h; sourceTree = "<group>"; };
+		04A2BE6A202833AE001F7DF8 /* NBSLensWebActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensWebActionManager.h; sourceTree = "<group>"; };
+		04A2BE6B202833AE001F7DF8 /* _priv_NBSLens_jsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_jsError.h; sourceTree = "<group>"; };
+		04A2BE6C202833AE001F7DF8 /* __ARCLiteKeyedSubscripting__-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "__ARCLiteKeyedSubscripting__-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE6D202833AE001F7DF8 /* _priv_NBSStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSStack.h; sourceTree = "<group>"; };
+		04A2BE6E202833AE001F7DF8 /* _priv_NBSLensBackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensBackTrace.h; sourceTree = "<group>"; };
+		04A2BE6F202833AE001F7DF8 /* NBSHookURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSHookURLConnection.h; sourceTree = "<group>"; };
+		04A2BE70202833AE001F7DF8 /* _priv_NBSHTTPTransactionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSHTTPTransactionList.h; sourceTree = "<group>"; };
+		04A2BE71202833AE001F7DF8 /* _priv_NBSLens_webViewDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_webViewDataManager.h; sourceTree = "<group>"; };
+		04A2BE72202833AE001F7DF8 /* _priv_NBSLensUITrackerLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensUITrackerLogger.h; sourceTree = "<group>"; };
+		04A2BE73202833AE001F7DF8 /* _priv_NBSLensCrashInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCrashInfo.h; sourceTree = "<group>"; };
+		04A2BE74202833AE001F7DF8 /* NBSLensTraceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensTraceData.h; sourceTree = "<group>"; };
+		04A2BE75202833AE001F7DF8 /* NSURLSessionDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE76202833AE001F7DF8 /* NBSEventSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSEventSegment.h; sourceTree = "<group>"; };
+		04A2BE77202833AE001F7DF8 /* NSURLConnectionDownloadDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnectionDownloadDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE78202833AE001F7DF8 /* NBSLensSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensSession.h; sourceTree = "<group>"; };
+		04A2BE79202833AE001F7DF8 /* NBSEventTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSEventTree.h; sourceTree = "<group>"; };
+		04A2BE7A202833AE001F7DF8 /* NBSURLSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSURLSessionDelegate.h; sourceTree = "<group>"; };
+		04A2BE7B202833AE001F7DF8 /* NBSLensHijackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensHijackItem.h; sourceTree = "<group>"; };
+		04A2BE7C202833AE001F7DF8 /* NSCoding-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCoding-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE7D202833AE001F7DF8 /* _priv_NBSURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSURLSession.h; sourceTree = "<group>"; };
+		04A2BE7E202833AE001F7DF8 /* NSURLConnectionDataDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnectionDataDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE7F202833AE001F7DF8 /* NSURLSessionDataDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDataDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE80202833AE001F7DF8 /* NBS_PBS_GCDAsyncSocketPreBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBS_PBS_GCDAsyncSocketPreBuffer.h; sourceTree = "<group>"; };
+		04A2BE81202833AE001F7DF8 /* NBSLensHijackLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensHijackLogger.h; sourceTree = "<group>"; };
+		04A2BE82202833AE001F7DF8 /* NSObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE83202833AE001F7DF8 /* _priv_NBSKeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSKeychainItemWrapper.h; sourceTree = "<group>"; };
+		04A2BE84202833AE001F7DF8 /* _priv_NBSTraceTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSTraceTree.h; sourceTree = "<group>"; };
+		04A2BE85202833AE001F7DF8 /* _priv_NBSLensWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensWebViewDelegate.h; sourceTree = "<group>"; };
+		04A2BE86202833AE001F7DF8 /* _priv_NBSURLProtocolSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSURLProtocolSession.h; sourceTree = "<group>"; };
+		04A2BE87202833AE001F7DF8 /* _priv_NBSLensCustomerEventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCustomerEventLogger.h; sourceTree = "<group>"; };
+		04A2BE88202833AE001F7DF8 /* _priv_NBSLensUITrackerEventStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensUITrackerEventStack.h; sourceTree = "<group>"; };
+		04A2BE89202833AE001F7DF8 /* NSCopying-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCopying-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE8A202833AE001F7DF8 /* NBS_PBS_GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBS_PBS_GCDAsyncSocket.h; sourceTree = "<group>"; };
+		04A2BE8B202833AE001F7DF8 /* NBS_CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBS_CLLocation.h; sourceTree = "<group>"; };
+		04A2BE8C202833AE001F7DF8 /* _priv_NBSFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSFilter.h; sourceTree = "<group>"; };
+		04A2BE8D202833AE001F7DF8 /* NBSLens_PBS_Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLens_PBS_Request.h; sourceTree = "<group>"; };
+		04A2BE8E202833AE001F7DF8 /* _priv_NBSLensSessionReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensSessionReporter.h; sourceTree = "<group>"; };
+		04A2BE8F202833AE001F7DF8 /* _priv_NBSTraceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSTraceItem.h; sourceTree = "<group>"; };
+		04A2BE90202833AE001F7DF8 /* NBS_PBS_GCDAsyncReadPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBS_PBS_GCDAsyncReadPacket.h; sourceTree = "<group>"; };
+		04A2BE91202833AE001F7DF8 /* _priv_NBSUIAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSUIAgent.h; sourceTree = "<group>"; };
+		04A2BE92202833AE001F7DF8 /* UIApplicationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplicationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE93202833AE001F7DF8 /* NBSLensWebAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensWebAction.h; sourceTree = "<group>"; };
+		04A2BE94202833AE001F7DF8 /* _priv_NBSUILogCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSUILogCenter.h; sourceTree = "<group>"; };
+		04A2BE95202833AE001F7DF8 /* _priv_NBSTraceTreeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSTraceTreeList.h; sourceTree = "<group>"; };
+		04A2BE96202833AE001F7DF8 /* _priv_NBSLensCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCrashReporter.h; sourceTree = "<group>"; };
+		04A2BE97202833AE001F7DF8 /* NSURLSessionTaskDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTaskDelegate-Protocol.h"; sourceTree = "<group>"; };
+		04A2BE98202833AE001F7DF8 /* _priv_NBSLens_perfmItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLens_perfmItem.h; sourceTree = "<group>"; };
+		04A2BE99202833AE001F7DF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A2BE9A202833AE001F7DF8 /* NBSLensAppStartsMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSLensAppStartsMetrics.h; sourceTree = "<group>"; };
+		04A2BE9B202833AE001F7DF8 /* _priv_NBSLensCustomerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _priv_NBSLensCustomerEvent.h; sourceTree = "<group>"; };
+		04A2BE9C20284033001F7DF8 /* ZZStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStack.h; sourceTree = "<group>"; };
+		04A2BE9D20284033001F7DF8 /* ZZStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStack.m; sourceTree = "<group>"; };
+		04A2BE9F20285053001F7DF8 /* ZZTraceTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTraceTree.h; sourceTree = "<group>"; };
+		04A2BEA020285053001F7DF8 /* ZZTraceTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTraceTree.m; sourceTree = "<group>"; };
 		859E3E1220275B65005D5ACD /* ZZKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859E3E1520275B65005D5ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		859E3E1620275B65005D5ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +169,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A2BE25202833AD001F7DF8 /* TingyunHeader */ = {
+			isa = PBXGroup;
+			children = (
+				04A2BE26202833AD001F7DF8 /* _priv_NBSLENSGestureTracker.h */,
+				04A2BE27202833AD001F7DF8 /* _priv_NBSLENS_VCSBuffer.h */,
+				04A2BE28202833AD001F7DF8 /* _priv_NBSLensUITrackerInstaller.h */,
+				04A2BE29202833AD001F7DF8 /* _priv_NBSHTTPTransaction.h */,
+				04A2BE2A202833AD001F7DF8 /* NBSAppAgent.h */,
+				04A2BE2B202833AD001F7DF8 /* _priv_NBSLensDelegateUITracker.h */,
+				04A2BE2C202833AD001F7DF8 /* _priv_NBSErrorManager.h */,
+				04A2BE2D202833AD001F7DF8 /* _priv_NBSUIDataItem.h */,
+				04A2BE2E202833AD001F7DF8 /* _priv_NBSURLProtocolConnection.h */,
+				04A2BE2F202833AD001F7DF8 /* _priv_NBSLens_iOSANREntity.h */,
+				04A2BE30202833AD001F7DF8 /* _priv_NBSReachability.h */,
+				04A2BE31202833AD001F7DF8 /* NBS_PBS_GCDAsyncWritePacket.h */,
+				04A2BE32202833AD001F7DF8 /* _priv_NBSErrorItem.h */,
+				04A2BE33202833AD001F7DF8 /* NSURLConnectionDelegate-Protocol.h */,
+				04A2BE34202833AD001F7DF8 /* _priv_NBSFinishArgumentsHelper.h */,
+				04A2BE35202833AD001F7DF8 /* _priv_NBSUILogCenter_assistant.h */,
+				04A2BE36202833AD001F7DF8 /* AppDelegate.h */,
+				04A2BE37202833AD001F7DF8 /* _priv_NBSDevice.h */,
+				04A2BE38202833AD001F7DF8 /* _priv_NBSLensCustomerAPIBusyItems.h */,
+				04A2BE39202833AD001F7DF8 /* NBSEventTreeNode.h */,
+				04A2BE3A202833AD001F7DF8 /* NBSLensAppStartsDataManager.h */,
+				04A2BE3B202833AD001F7DF8 /* _priv_NBSLENS_URLParamsFilter.h */,
+				04A2BE3C202833AD001F7DF8 /* _priv_NBSLensPageInfo.h */,
+				04A2BE3D202833AD001F7DF8 /* _priv_NBSHookNSData.h */,
+				04A2BE3E202833AD001F7DF8 /* NBSAESEncrypt.h */,
+				04A2BE3F202833AD001F7DF8 /* _priv_NBSConfig.h */,
+				04A2BE40202833AD001F7DF8 /* NBSLENS_hookNSURL.h */,
+				04A2BE41202833AD001F7DF8 /* _priv_NBSSafeMutableArray.h */,
+				04A2BE42202833AD001F7DF8 /* _priv_NBSLensUITraceSegment.h */,
+				04A2BE43202833AD001F7DF8 /* NBSEventForest.h */,
+				04A2BE44202833AD001F7DF8 /* _priv_NBSLensURLSessionDemux.h */,
+				04A2BE45202833AD001F7DF8 /* _priv_NBSLensURLSessionDemuxTaskInfo.h */,
+				04A2BE46202833AD001F7DF8 /* NBSURLConnectionDelegate.h */,
+				04A2BE47202833AD001F7DF8 /* NSURLSessionStreamDelegate-Protocol.h */,
+				04A2BE48202833AD001F7DF8 /* _priv_NBSLensInterfaceEvent.h */,
+				04A2BE49202833AD001F7DF8 /* NSObject-BlocksKit.h */,
+				04A2BE4A202833AD001F7DF8 /* NBSHookASI.h */,
+				04A2BE4B202833AD001F7DF8 /* NBSLensAppStartsInstaller.h */,
+				04A2BE4C202833AD001F7DF8 /* NBSLensUIEventStack.h */,
+				04A2BE4D202833AD001F7DF8 /* NBSThreadHandler.h */,
+				04A2BE4E202833AD001F7DF8 /* _priv_NBSLens_iOSANRMonitor.h */,
+				04A2BE4F202833AD001F7DF8 /* _priv_NBSForwardMessage.h */,
+				04A2BE50202833AD001F7DF8 /* NBSURLSessionDelegateBefore.h */,
+				04A2BE51202833AD001F7DF8 /* _priv_NBSLensCustomerAPIBusyItem.h */,
+				04A2BE52202833AD001F7DF8 /* NBSEventTreeMetric.h */,
+				04A2BE53202833AE001F7DF8 /* _priv_NBSGZData.h */,
+				04A2BE54202833AE001F7DF8 /* _priv_NBS_DictAndArrary.h */,
+				04A2BE55202833AE001F7DF8 /* NSNumber-address.h */,
+				04A2BE56202833AE001F7DF8 /* _priv_NBSLensControllerReplacer.h */,
+				04A2BE57202833AE001F7DF8 /* _priv_NBSUIDataListOfScope.h */,
+				04A2BE58202833AE001F7DF8 /* _priv_NBSProbe.h */,
+				04A2BE59202833AE001F7DF8 /* NBSLens_Wrapper.h */,
+				04A2BE5A202833AE001F7DF8 /* _priv_NBSURLParamItem.h */,
+				04A2BE5B202833AE001F7DF8 /* NSURLSessionDownloadDelegate-Protocol.h */,
+				04A2BE5C202833AE001F7DF8 /* _priv_NBSLensUITrackerTouchAndTap.h */,
+				04A2BE5D202833AE001F7DF8 /* NBSLensAppStartsReporter.h */,
+				04A2BE5E202833AE001F7DF8 /* NBS_PBS_GCDAsyncSpecialPacket.h */,
+				04A2BE5F202833AE001F7DF8 /* _priv_NBSLens_hookWebview.h */,
+				04A2BE60202833AE001F7DF8 /* _priv_NBSLensPageInfoRecord.h */,
+				04A2BE61202833AE001F7DF8 /* NBS_PBS_GCDAsyncSocketDelegate-Protocol.h */,
+				04A2BE62202833AE001F7DF8 /* _priv_NBS_Lock.h */,
+				04A2BE63202833AE001F7DF8 /* _priv_NBSFilterItem.h */,
+				04A2BE64202833AE001F7DF8 /* _priv_NBSLens_iOSANRManager.h */,
+				04A2BE65202833AE001F7DF8 /* CDStructures.h */,
+				04A2BE66202833AE001F7DF8 /* _priv_NBSLensCrashHandler.h */,
+				04A2BE67202833AE001F7DF8 /* NBSLensCrashHelper.h */,
+				04A2BE68202833AE001F7DF8 /* _priv_NBSUIHookMatrix.h */,
+				04A2BE69202833AE001F7DF8 /* _priv_NBSLensInterfaceEventLogger.h */,
+				04A2BE6A202833AE001F7DF8 /* NBSLensWebActionManager.h */,
+				04A2BE6B202833AE001F7DF8 /* _priv_NBSLens_jsError.h */,
+				04A2BE6C202833AE001F7DF8 /* __ARCLiteKeyedSubscripting__-Protocol.h */,
+				04A2BE6D202833AE001F7DF8 /* _priv_NBSStack.h */,
+				04A2BE6E202833AE001F7DF8 /* _priv_NBSLensBackTrace.h */,
+				04A2BE6F202833AE001F7DF8 /* NBSHookURLConnection.h */,
+				04A2BE70202833AE001F7DF8 /* _priv_NBSHTTPTransactionList.h */,
+				04A2BE71202833AE001F7DF8 /* _priv_NBSLens_webViewDataManager.h */,
+				04A2BE72202833AE001F7DF8 /* _priv_NBSLensUITrackerLogger.h */,
+				04A2BE73202833AE001F7DF8 /* _priv_NBSLensCrashInfo.h */,
+				04A2BE74202833AE001F7DF8 /* NBSLensTraceData.h */,
+				04A2BE75202833AE001F7DF8 /* NSURLSessionDelegate-Protocol.h */,
+				04A2BE76202833AE001F7DF8 /* NBSEventSegment.h */,
+				04A2BE77202833AE001F7DF8 /* NSURLConnectionDownloadDelegate-Protocol.h */,
+				04A2BE78202833AE001F7DF8 /* NBSLensSession.h */,
+				04A2BE79202833AE001F7DF8 /* NBSEventTree.h */,
+				04A2BE7A202833AE001F7DF8 /* NBSURLSessionDelegate.h */,
+				04A2BE7B202833AE001F7DF8 /* NBSLensHijackItem.h */,
+				04A2BE7C202833AE001F7DF8 /* NSCoding-Protocol.h */,
+				04A2BE7D202833AE001F7DF8 /* _priv_NBSURLSession.h */,
+				04A2BE7E202833AE001F7DF8 /* NSURLConnectionDataDelegate-Protocol.h */,
+				04A2BE7F202833AE001F7DF8 /* NSURLSessionDataDelegate-Protocol.h */,
+				04A2BE80202833AE001F7DF8 /* NBS_PBS_GCDAsyncSocketPreBuffer.h */,
+				04A2BE81202833AE001F7DF8 /* NBSLensHijackLogger.h */,
+				04A2BE82202833AE001F7DF8 /* NSObject-Protocol.h */,
+				04A2BE83202833AE001F7DF8 /* _priv_NBSKeychainItemWrapper.h */,
+				04A2BE84202833AE001F7DF8 /* _priv_NBSTraceTree.h */,
+				04A2BE85202833AE001F7DF8 /* _priv_NBSLensWebViewDelegate.h */,
+				04A2BE86202833AE001F7DF8 /* _priv_NBSURLProtocolSession.h */,
+				04A2BE87202833AE001F7DF8 /* _priv_NBSLensCustomerEventLogger.h */,
+				04A2BE88202833AE001F7DF8 /* _priv_NBSLensUITrackerEventStack.h */,
+				04A2BE89202833AE001F7DF8 /* NSCopying-Protocol.h */,
+				04A2BE8A202833AE001F7DF8 /* NBS_PBS_GCDAsyncSocket.h */,
+				04A2BE8B202833AE001F7DF8 /* NBS_CLLocation.h */,
+				04A2BE8C202833AE001F7DF8 /* _priv_NBSFilter.h */,
+				04A2BE8D202833AE001F7DF8 /* NBSLens_PBS_Request.h */,
+				04A2BE8E202833AE001F7DF8 /* _priv_NBSLensSessionReporter.h */,
+				04A2BE8F202833AE001F7DF8 /* _priv_NBSTraceItem.h */,
+				04A2BE90202833AE001F7DF8 /* NBS_PBS_GCDAsyncReadPacket.h */,
+				04A2BE91202833AE001F7DF8 /* _priv_NBSUIAgent.h */,
+				04A2BE92202833AE001F7DF8 /* UIApplicationDelegate-Protocol.h */,
+				04A2BE93202833AE001F7DF8 /* NBSLensWebAction.h */,
+				04A2BE94202833AE001F7DF8 /* _priv_NBSUILogCenter.h */,
+				04A2BE95202833AE001F7DF8 /* _priv_NBSTraceTreeList.h */,
+				04A2BE96202833AE001F7DF8 /* _priv_NBSLensCrashReporter.h */,
+				04A2BE97202833AE001F7DF8 /* NSURLSessionTaskDelegate-Protocol.h */,
+				04A2BE98202833AE001F7DF8 /* _priv_NBSLens_perfmItem.h */,
+				04A2BE99202833AE001F7DF8 /* ViewController.h */,
+				04A2BE9A202833AE001F7DF8 /* NBSLensAppStartsMetrics.h */,
+				04A2BE9B202833AE001F7DF8 /* _priv_NBSLensCustomerEvent.h */,
+			);
+			path = TingyunHeader;
+			sourceTree = "<group>";
+		};
 		859E3E0920275B65005D5ACD = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +313,7 @@
 		859E3E1420275B65005D5ACD /* ZZKit */ = {
 			isa = PBXGroup;
 			children = (
+				04A2BE25202833AD001F7DF8 /* TingyunHeader */,
 				859E3E2B20275B82005D5ACD /* Classes */,
 				859E3E1520275B65005D5ACD /* AppDelegate.h */,
 				859E3E1620275B65005D5ACD /* AppDelegate.m */,
@@ -85,6 +335,10 @@
 				859E3E2D20275C27005D5ACD /* ZZControllerReplacer.m */,
 				859E3E2F20275DCF005D5ACD /* ZZTraceItem.h */,
 				859E3E3020275DCF005D5ACD /* ZZTraceItem.m */,
+				04A2BE9C20284033001F7DF8 /* ZZStack.h */,
+				04A2BE9D20284033001F7DF8 /* ZZStack.m */,
+				04A2BE9F20285053001F7DF8 /* ZZTraceTree.h */,
+				04A2BEA020285053001F7DF8 /* ZZTraceTree.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -160,8 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A2BEA120285053001F7DF8 /* ZZTraceTree.m in Sources */,
 				859E3E1A20275B65005D5ACD /* ViewController.m in Sources */,
 				859E3E3120275DCF005D5ACD /* ZZTraceItem.m in Sources */,
+				04A2BE9E20284033001F7DF8 /* ZZStack.m in Sources */,
 				859E3E2520275B65005D5ACD /* main.m in Sources */,
 				859E3E1720275B65005D5ACD /* AppDelegate.m in Sources */,
 				859E3E2E20275C27005D5ACD /* ZZControllerReplacer.m in Sources */,
