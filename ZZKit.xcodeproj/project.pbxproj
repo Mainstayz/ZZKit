@@ -12,6 +12,7 @@
 		8527AACD2028A5F3004435A7 /* ZZTraceTreeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527AACC2028A5F3004435A7 /* ZZTraceTreeList.m */; };
 		8527AAD02028B6DC004435A7 /* ZZFinishArgumentsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527AACF2028B6DC004435A7 /* ZZFinishArgumentsHelper.m */; };
 		8527AAD32028B75A004435A7 /* ZZUIDataListOfScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527AAD22028B75A004435A7 /* ZZUIDataListOfScope.m */; };
+		85411F9E202A0C61000E2F89 /* ZZOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 85411F9D202A0C60000E2F89 /* ZZOrderedDictionary.m */; };
 		857A99F92029ED2200B69969 /* ZZUIDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A99F82029ED2200B69969 /* ZZUIDataItem.m */; };
 		859E3E1720275B65005D5ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E1620275B65005D5ACD /* AppDelegate.m */; };
 		859E3E1A20275B65005D5ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E3E1920275B65005D5ACD /* ViewController.m */; };
@@ -152,6 +153,8 @@
 		8527AACF2028B6DC004435A7 /* ZZFinishArgumentsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFinishArgumentsHelper.m; sourceTree = "<group>"; };
 		8527AAD12028B75A004435A7 /* ZZUIDataListOfScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUIDataListOfScope.h; sourceTree = "<group>"; };
 		8527AAD22028B75A004435A7 /* ZZUIDataListOfScope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZUIDataListOfScope.m; sourceTree = "<group>"; };
+		85411F9C202A0C60000E2F89 /* ZZOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZOrderedDictionary.h; sourceTree = "<group>"; };
+		85411F9D202A0C60000E2F89 /* ZZOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZOrderedDictionary.m; sourceTree = "<group>"; };
 		857A99F72029ED2200B69969 /* ZZUIDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUIDataItem.h; sourceTree = "<group>"; };
 		857A99F82029ED2200B69969 /* ZZUIDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZUIDataItem.m; sourceTree = "<group>"; };
 		857A99FA2029EDE000B69969 /* ZZStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStructures.h; sourceTree = "<group>"; };
@@ -361,6 +364,8 @@
 				857A99F72029ED2200B69969 /* ZZUIDataItem.h */,
 				857A99F82029ED2200B69969 /* ZZUIDataItem.m */,
 				857A99FA2029EDE000B69969 /* ZZStructures.h */,
+				85411F9C202A0C60000E2F89 /* ZZOrderedDictionary.h */,
+				85411F9D202A0C60000E2F89 /* ZZOrderedDictionary.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				859E3E2520275B65005D5ACD /* main.m in Sources */,
 				859E3E1720275B65005D5ACD /* AppDelegate.m in Sources */,
 				8527AAD32028B75A004435A7 /* ZZUIDataListOfScope.m in Sources */,
+				85411F9E202A0C61000E2F89 /* ZZOrderedDictionary.m in Sources */,
 				8527AAD02028B6DC004435A7 /* ZZFinishArgumentsHelper.m in Sources */,
 				859E3E2E20275C27005D5ACD /* ZZControllerReplacer.m in Sources */,
 			);
